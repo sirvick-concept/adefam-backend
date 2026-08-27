@@ -10,7 +10,7 @@ const app = express()
 await connectDB()
 
 app.use(cors({
-    origin : ["https://adefarm.vercel.app", "http://localhost:5173"],
+    origin : ["https://adefam.vercel.app", "http://localhost:5173"],
     credentials : true
 }));
 app.use(cookieParser())
